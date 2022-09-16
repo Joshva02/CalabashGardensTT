@@ -34,7 +34,7 @@ const Gallery = () => {
           A Beautiful array of photos taken at our location in Port Of Spain.
         </p>
         <button type="button" className="custom__button">
-          <a href="https://www.instagram.com/calabashgarden/"> View More</a>
+          <a href="https://www.instagram.com/calabashgarden/"> Our Instagram   </a>
    
         </button>
       </div>
@@ -49,9 +49,11 @@ const Gallery = () => {
             <div
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
-            >
+            > 
               <img src={image} alt="gallery_image" />
+         
               <BsInstagram className="gallery__image-icon" />
+       
             </div>
           ))}
         </div>

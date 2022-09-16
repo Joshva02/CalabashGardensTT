@@ -26,8 +26,8 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="/" className="p__opensans">
-          Book Table
+        <a href="#booking" className="p__opensans">
+          Create Appointment
 
         </a>
       </div>
